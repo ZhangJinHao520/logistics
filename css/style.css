@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+.logistics-info {
+	border-radius: 10px;
+	margin: 10px 14px 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.logistics-status {
+	width: 100%;
+}
+
+.logistics-status li.logistics-status-list {
+	color: #666;
+	font-size: 12px;
+	border-left: 1px solid #eee;
+	padding-left: 25px;
+	position: relative;
+	padding-bottom: 26px;
+}
+
+.logistics-status li.logistics-status-list:last-child {
+	border: 0;
+}
+
+.logistics-status li .status-title {
+	font-size: 14px;
+}
+
+.logistics-status li .status-details {
+	padding: 4px 0;
+	line-height: 22px;
+}
+
+.logistics-status li.logistics-status-list i {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	position: absolute;
+	left: -12px;
+	border-radius: 50%;
+}
+
+.logistics-status li.logistics-status-list i.icon-logistics-a {
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581524939424&di=924684e6532889cc6292c38c1cdc2742&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2502268138%2C1652237098%26fm%3D214%26gp%3D0.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.logistics-status li.logistics-status-list i.icon-logistics-b {
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581524939424&di=924684e6532889cc6292c38c1cdc2742&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2502268138%2C1652237098%26fm%3D214%26gp%3D0.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.logistics-status li.logistics-status-list i.icon-logistics-c {
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581524939424&di=924684e6532889cc6292c38c1cdc2742&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2502268138%2C1652237098%26fm%3D214%26gp%3D0.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.logistics-status li.logistics-status-list i.icon-logistics-d {
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581524939424&di=924684e6532889cc6292c38c1cdc2742&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2502268138%2C1652237098%26fm%3D214%26gp%3D0.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.logistics-status li.logistics-status-list i.icon-logistics-e {
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1581524939424&di=924684e6532889cc6292c38c1cdc2742&imgtype=jpg&src=http%3A%2F%2Fimg3.imgtn.bdimg.com%2Fit%2Fu%3D2502268138%2C1652237098%26fm%3D214%26gp%3D0.jpg) no-repeat center;
+	background-size: 100%;
+}
+
+.logistics-status li.logistics-status-list span {
+	width: 8px;
+	height: 8px;
+	display: inline-block;
+	position: absolute;
+	left: -5px;
+	top: 8px;
+	background: #eee;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+}
